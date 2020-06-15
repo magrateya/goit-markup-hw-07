@@ -1,0 +1,21 @@
+/* :root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --bg-button-color: #f5f4fa;
+}
+.nav .link {
+  color: var(--title-text-color);
+}
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+} */
