@@ -1,10 +1,12 @@
 .clients-list {
   display: flex;
   justify-content: center;
+
+  & > li + li {
+    margin-left: 30px;
+  }
 }
-.clients-list > li + li {
-  margin-left: 30px;
-}
+
 .link-client {
   display: flex;
   align-items: center;
@@ -18,9 +20,10 @@
   transition-property: border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-client:hover,
-.link-client:focus {
-  border: 1px solid $accent-color;
-  fill: $accent-color;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+    fill: $accent-color;
+  }
 }

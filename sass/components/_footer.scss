@@ -1,10 +1,9 @@
 footer {
-  background-color: $bg-footer;
-}
-footer {
   padding-top: 48px;
   padding-bottom: 21px;
+  background-color: $bg-footer;
 }
+
 .footer-box {
   display: flex;
   align-items: baseline;

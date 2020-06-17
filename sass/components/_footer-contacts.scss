@@ -1,21 +1,19 @@
-.logo-link {
-  display: block;
-  margin-bottom: 10px;
-}
 .footer-contacts {
   margin-right: 69px;
-}
-.footer-contacts > ul > li {
-  margin-bottom: 9px;
+
+  & > ul > li {
+    margin-bottom: 9px;
+  }
+
+  .link {
+    color: $footer-text-contacts-color;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+  }
 }
 
-.footer-contacts .link {
-  color: $footer-text-contacts-color;
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.2;
-}
 .link-item .link {
   color: $primary-white-color;
 }

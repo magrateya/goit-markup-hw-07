@@ -6,13 +6,13 @@
   border-radius: 50%;
   background-color: $bg-social-networks-footer;
   fill: $icon-socio-color;
-
   transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-socio:hover,
-.link-socio:focus {
-  background-color: $accent-color;
-  fill: $primary-white-color;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: $primary-white-color;
+  }
 }

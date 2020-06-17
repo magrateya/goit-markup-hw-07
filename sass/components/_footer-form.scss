@@ -11,14 +11,16 @@
   background-color: $accent-color;
   border-radius: 4px;
   border: none;
+
+  &::after {
+    content: '';
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/send.svg);
+  }
 }
-.submit::after {
-  content: '';
-  margin-left: 10px;
-  width: 24px;
-  height: 24px;
-  background-image: url(../img/send.svg);
-}
+
 .mail-field {
   box-sizing: border-box;
   margin-right: 12px;

@@ -1,12 +1,15 @@
 .advantages-list {
   display: flex;
+
+  & > li:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  & > li:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.advantages-list > li:not(:last-child) {
-  margin-right: 30px;
-}
-.advantage-list > li {
-  width: calc((100% - 3 * 30px) / 4);
-}
+
 .advantages-list-item::before {
   content: '';
   display: block;

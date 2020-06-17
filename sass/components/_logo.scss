@@ -11,16 +11,24 @@
   color: $title-text-color;
 }
 /* лого футер */
-.footer-contacts .logo-link {
-  font-family: $logo-font-fam;
-  font-size: 22px;
-  line-height: 1.18;
-  text-decoration: none;
+
+.logo-link {
+  display: block;
+  margin-bottom: 10px;
 }
-.footer-contacts .logo-web {
-  color: $accent-color;
-}
+
 .footer-contacts {
+  .logo-link {
+    font-family: $logo-font-fam;
+    font-size: 22px;
+    line-height: 1.18;
+    text-decoration: none;
+  }
+
+  .logo-web {
+    color: $accent-color;
+  }
+
   .logo-studio {
     color: $primary-white-color;
   }
