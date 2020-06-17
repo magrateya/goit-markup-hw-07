@@ -1,0 +1,31 @@
+.advantages-list {
+  display: flex;
+}
+.advantages-list > li:not(:last-child) {
+  margin-right: 30px;
+}
+.advantage-list > li {
+  width: calc((100% - 3 * 30px) / 4);
+}
+.advantages-list-item::before {
+  content: '';
+  display: block;
+  margin-bottom: 30px;
+  height: 120px;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-color: $bg-button-color;
+  background-position: center;
+}
+.advantages-list-item:nth-child(1)::before {
+  background-image: url(../img/details.svg);
+}
+.advantages-list-item:nth-child(2)::before {
+  background-image: url(../img/punctuality.svg);
+}
+.advantages-list-item:nth-child(3)::before {
+  background-image: url(../img/planning.svg);
+}
+.advantages-list-item:nth-child(4)::before {
+  background-image: url(../img/modern-tech.svg);
+}
