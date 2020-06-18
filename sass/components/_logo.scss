@@ -12,21 +12,13 @@
 }
 /* лого футер */
 
-.logo-link {
-  display: block;
-  margin-bottom: 10px;
-}
-
 .footer-contacts {
   .logo-link {
+    display: block;
+    margin-bottom: 10px;
     font-family: $logo-font-fam;
     font-size: 22px;
     line-height: 1.18;
-    text-decoration: none;
-  }
-
-  .logo-web {
-    color: $accent-color;
   }
 
   .logo-studio {
