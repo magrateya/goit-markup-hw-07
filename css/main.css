@@ -305,8 +305,8 @@ footer {
 .hero-button {
   display: inline-block;
   border: none;
-  padding: 10px 32px;
   border-radius: 4px;
+  padding: 10px 32px;
   min-width: 200px;
   color: #ffffff;
   background-color: #2196f3;
@@ -384,7 +384,9 @@ footer {
 }
 
 .modal-submit {
-  display: block;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
   width: 200px;
   padding: 10px 28px 10px 29px;
   margin: 0 auto;
@@ -395,8 +397,6 @@ footer {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
-  border-radius: 4px;
-  border: none;
 }
 
 form {
@@ -421,13 +421,14 @@ form {
 }
 
 .form-input {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
   width: 448px;
   padding: 12px 44px 12px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 4px;
-  outline: none;
 }
 
 .form-input:focus {
@@ -804,6 +805,8 @@ form {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  border: none;
+  border-radius: 4px;
   padding: 10px 28px 10px 29px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -815,8 +818,6 @@ form {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
-  border-radius: 4px;
-  border: none;
 }
 
 .submit::after {
@@ -846,6 +847,9 @@ form {
 }
 
 .filter button {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
   padding: 6px 22px;
   color: #212121;
   background-color: #f5f4fa;
@@ -854,8 +858,6 @@ form {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: inherit;
-  border-radius: 4px;
-  border: none;
   cursor: pointer;
   -webkit-transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, -webkit-box-shadow;
